@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	<head>
+		<title> css demo </title>
+		<meta name ="author" content = "Ronak Sheth">
+		<meta name ="description" content = "css demo">
+		<meta charset= "UTF-8">	
+        <style>
+            main li{
+                background-color: lime;
+            }
+           footer li {
+            background-color: red;
+           }
+           div>h1{
+            background-color: pink;
+           }
+           h2+p{
+            background-color: aqua;
+           }
+           h2~p{
+            background-color: silver;
+           }
+           h1,h2,p{
+            color: blue;
+           }
+           p[lang= "en-gb"]{
+            font-style: italic;
+            font-weight: bold;
+            color: black;
+           }
+        </style>
+        
+    </head>
+    <body>
+        <main>
+           
+            <p>this is p </p>
+            <div>
+                <h1 class="speakers">This Season's Town Hall speakers</h1>
+            </div>
+            <ul class="speakers">
+                <li>January: <a href="speakers/brancaccio.html">
+                    David Brancaccio</a></li>
+                <li>February: 
+                    <a href="speakers/fitzpatrick.html">
+                    Robert Fitzpatrick</a></li>
+                <li>March: <a href="speakers/williams.html">
+                    Juan Williams</a></li>
+            </ul>
+            <h2 id="id1">Post-lecture luncheons</h2>
+            <div></div>
+
+            <p>Extend the excitement by going to the luncheon</p>
+            <p lang="en-gb">A limited number of tickets are available.</p>
+            <p lang="en-us"><em>Contact us by phone</em> at (559) 555-1212.</p>
+            <div lang="en-us"> This is div</div>  
+        </main>
+        <footer>
+            <h2> Footer h2</h2>
+            <ul>
+                <li>f1</li>
+                <li>f2</li>
+                <li>f3</li>
+            </ul>
+        </footer>
+    </body>
+</html>
